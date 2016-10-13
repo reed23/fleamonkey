@@ -1,0 +1,67 @@
+.middle{
+  background-color:black;
+  position:absolute;
+  z-index;200;
+  width:100%;
+  bottom:0;
+  opacity:0.7;
+  text-align:center;
+  
+ 
+  
+}
+
+.box-me{
+  position: absolute;
+  z-index: 30000;
+  width: 100%;
+  background-color: white;
+}
+
+.main-logo{
+  width: 25%;
+  float: left;
+width: 200px;
+}
+p{
+  font-size:32px;
+  color:white;
+  text-align:left;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h1{
+   color:white;
+  text-align:center;
+  position:absolute;
+  left:30%;
+  letter-spacing:2px;
+  font-size:4em;
+ font-family: 'Open Sans Condensed', sans-serif;
+
+ top:20%;
+  
+}
+input{
+  width:50%;
+  margin:0 auto;
+  top:0;
+}
+li{
+  display:inline-block;
+  margin-left:10px;
+}
+.top{
+  max-height:0px;
+  position:absolute;
+  overflow: hidden;
+  z-index:40000;
+  background-color:white;
+  width:100%;
+  transition: all 0.3s ease-in-out 0s, visibility 0s linear 0.3s, z-index 0s linear 0.01s;
+}
+.active{
+  max-height:400px !important;
+  display: block !important;
+  height: 400px;
+}
