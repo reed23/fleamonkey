@@ -11,6 +11,30 @@
   
 }
 
+.brown-bar{
+  background-color: #524642;
+  width: 100%;
+  height: 50px;
+}
+
+.brown-bar a{
+  color: white;
+}
+.brown-bar p{
+  color: white;
+  margin-top: -10px;
+  font-size: 24px;
+}
+
+
+button{
+background-color: transparent;
+    border: 1px solid brown;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+}
 .box-me{
   position: absolute;
   z-index: 30000;
@@ -19,9 +43,12 @@
 }
 
 .main-logo{
-  width: 25%;
-  float: left;
-width: 200px;
+ width: 25%;
+    float: left;
+    width: 200px;
+    text-align: center;
+    margin-left: 450px;
+
 }
 p{
   font-size:32px;
