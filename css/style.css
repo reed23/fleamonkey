@@ -10,6 +10,11 @@
  
   
 }
+.flx-embed{
+  position: absolute;
+  width: 100%;
+  
+}
 
 .brown-bar{
   background-color: #524642;
